@@ -63,8 +63,6 @@ source aliases.sh
 export WORKON_HOME=~/.virtualenvs
 source /usr/bin/virtualenvwrapper.sh
 
-
-
 PATH=$PATH:~/.gem/ruby/2.3.0/bin/
 #PATH=$PATH:~/.gem/ruby/2.3.0/bin/:~/.Renv/bin
 #eval "$(Renv init -)"
