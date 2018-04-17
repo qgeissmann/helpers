@@ -58,7 +58,7 @@ export NUMCPUS=`grep -c '^processor' /proc/cpuinfo`
 export LD_LIBRARY_PATH=/usr/local/lib
 # Aliases##################################################################
 
-source aliases.sh
+source $HELPERS/aliases.sh
 
 export WORKON_HOME=~/.virtualenvs
 source /usr/bin/virtualenvwrapper.sh

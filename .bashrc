@@ -1,5 +1,5 @@
 HELPERS=~/comput/helpers-git
-cd $HELPERS
-git pull 
-source bash_profile
-cd -- 
+export HELPERS
+git pull -C $HELPERS
+source  $HELPERS/bash_profile
+
