@@ -20,6 +20,9 @@ alias switch_gpu='sudo sh ~/comput/helpers-git/switch_gpu.sh'
 #see curseradio to gegt the url
 alias bbc4='mpv http://open.live.bbc.co.uk/mediaselector/5/select/version/2.0/mediaset/http-icy-mp3-a/vpid/bbc_radio_fourlw/format/pls.pls'
 
+alias commit='git commit'
+alias pull='git pull --recurse-submodules'
+alias push='git push'
 alias defselect='gnome-terminal -e "$(sdcv $(xclip -o -sec) -n -0)"'
 echo " "
 echo "==========================="
