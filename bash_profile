@@ -66,3 +66,19 @@ source /usr/bin/virtualenvwrapper.sh
 PATH=$PATH:~/.gem/ruby/2.3.0/bin/
 #PATH=$PATH:~/.gem/ruby/2.3.0/bin/:~/.Renv/bin
 #eval "$(Renv init -)"
+LINODE=45.56.90.228
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
