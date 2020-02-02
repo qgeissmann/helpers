@@ -8,7 +8,7 @@ alias cdt='cd /tmp'
 alias cdc='cd ~/comput/'
 alias cdo='cd ~/ownCloud/'
 alias cdr='cd ~/repos/'
-#alias cde='cd ~/comput/ethoscope-git'
+alias cds='cd ~/comput/sticky-pi-git'
 #alias cdh='cd ~/comput/helpers-git'
 #alias cdp='cd ~/comput/ImperialPhD/PhD/phd_thesis'
 alias x='xdg-open'
@@ -24,6 +24,7 @@ alias commit='git commit'
 alias pull='git pull --recurse-submodules'
 alias push='git push'
 alias defselect='gnome-terminal -e "$(sdcv $(xclip -o -sec) -n -0)"'
+
 echo " "
 echo "==========================="
 echo 'Your aliases:'
